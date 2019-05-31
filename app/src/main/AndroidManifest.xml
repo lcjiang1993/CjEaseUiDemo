@@ -39,7 +39,7 @@
         <!-- 设置环信应用的AppKey -->
         <meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="1114190123098110#mingrenminglan" />
+            android:value="easemob-demo#chatdemoui" />
         <!-- 声明SDK所需的service SDK核心功能 -->
 
         <uses-library
@@ -58,7 +58,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REMOVED" />
 
-                <data android:scheme="com.yixiangshidai.mingrenminglan" />
+                <data android:scheme="com.lcjiang.im.cjeaseuidemo" />
             </intent-filter>
             <!-- 可选filter -->
             <intent-filter>

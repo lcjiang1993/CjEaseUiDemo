@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.dismiss();
                 Random random=new Random();
                 int temp = random.nextInt(10);
-                String nick =temp+"号小川川";
+                String nick =temp+"号小川川"+temp + "小圆圆";
                 EMClient.getInstance().groupManager().loadAllGroups();
                 EMClient.getInstance().chatManager().loadAllConversations();
                 Log.e("main", "登录聊天服务器成功！");
